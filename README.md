@@ -128,7 +128,7 @@ Para conectarte a GitHub sin introducir usuario/contraseña cada vez:
    ```bash
    git remote set-url origin git@github.com:usuario/repositorio.git
 
-###  M-9 Resolución de conflictos
+### 🔹 Resolución de conflictos
 
 Cuando dos ramas modifican la misma parte de un archivo, se genera un conflicto al hacer merge.
 
