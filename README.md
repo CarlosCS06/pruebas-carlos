@@ -29,6 +29,10 @@ Cuando inicializas un proyecto con `git init`, se crea una carpeta oculta llamad
    ```bash
    git commit -m "Primer commit"
 
+Aquí se puede ver un ejemplo de estos comandos probados a traves de git:
+
+![Captura de ejemplo](imagenes\Captura de pantalla 2025-05-07 143605.png)
+
 ### 🔹 Revisar los distintos commits realizados
 
 Para ver el historial de commits:
