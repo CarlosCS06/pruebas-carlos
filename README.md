@@ -150,7 +150,7 @@ Cuando dos ramas modifican la misma parte de un archivo, se genera un conflicto 
    git add archivo.txt
    git commit -m "Resolver conflicto en archivo.txt"
 
-###  M-9 Creación de ramas
+### 🔹 Creación de ramas
 
 Crear una rama nueva:
 
