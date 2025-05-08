@@ -31,23 +31,23 @@ Cuando inicializas un proyecto con `git init`, se crea una carpeta oculta llamad
 
 ### 🔹 Revisar los distintos commits realizados
 
--Para ver el historial de commits:
+Para ver el historial de commits:
    ```bash
    git log
 
--También puedes usar:
+También puedes usar:
    ```bash
    git log --oneline --graph --all
 
 Esto muestra los commits de forma visual y resumida.
 
 ###🔹 Etiquetando commits y viendo diferencias
--Puedes etiquetar un commit (por ejemplo, para marcar una versión):
+Puedes etiquetar un commit (por ejemplo, para marcar una versión):
 
    ```bash
    git tag v1.0
 
--Ver diferencias entre versiones:
+Ver diferencias entre versiones:
 
    ```bash
    git diff commit1 commit2
@@ -67,17 +67,17 @@ Esto muestra los commits de forma visual y resumida.
    git push -u origin main
 
 ###🔹 Deshaciendo cambios en repositorio local
--Deshacer cambios en el área de staging:
+Deshacer cambios en el área de staging:
 
    ```bash
    git restore --staged archivo.txt
 
--Deshacer cambios no guardados:
+Deshacer cambios no guardados:
 
    ```bash
    git checkout -- archivo.txt
 
--Volver a un commit anterior (de forma irreversible):
+Volver a un commit anterior (de forma irreversible):
 
    ```bash
    git reset --hard commit_id
@@ -85,7 +85,7 @@ Esto muestra los commits de forma visual y resumida.
 ###🔹 Archivo .gitignore y subir cambios al repositorio remoto
 El archivo .gitignore indica a Git qué archivos o carpetas no debe rastrear (por ejemplo, archivos temporales, binarios, configuraciones locales, etc.).
 
--Ejemplo de .gitignore:
+Ejemplo de .gitignore:
 
    ```kotlin
    *.log
@@ -93,7 +93,7 @@ El archivo .gitignore indica a Git qué archivos o carpetas no debe rastrear (po
    node_modules/
    .DS_Store
 
--Después de crearlo/modificarlo:
+Después de crearlo/modificarlo:
 
    ```bash
    git add .gitignore
@@ -143,39 +143,39 @@ Cuando dos ramas modifican la misma parte de un archivo, se genera un conflicto 
 
 ###🔹 Creación de ramas
 
--Crear una rama nueva:
+Crear una rama nueva:
 
    ```bash
    git branch nombre-rama
 
--Cambiarte a esa rama:
+Cambiarte a esa rama:
 
    ```bash
    git checkout nombre-rama
 
--O hacer ambas cosas a la vez:
+O hacer ambas cosas a la vez:
 
    ```bash
    git checkout -b nombre-rama
 
 ###🔹 Fusión y eliminación de ramas
 
--Volver a la rama main:
+Volver a la rama main:
 
    ```bash
    git checkout main
 
--Fusionar una rama (por ejemplo, desarrollo) con main:
+Fusionar una rama (por ejemplo, desarrollo) con main:
 
    ```bash
    git merge desarrollo
 
--Eliminar una rama local ya fusionada:
+Eliminar una rama local ya fusionada:
 
    ```bash
    git branch -d desarrollo
 
--Eliminar una rama remota:
+Eliminar una rama remota:
 
    ```bash
    git push origin --delete desarrollo
