@@ -32,10 +32,12 @@ Cuando inicializas un proyecto con `git init`, se crea una carpeta oculta llamad
 ### 🔹 Revisar los distintos commits realizados
 
 Para ver el historial de commits:
+
    ```bash
    git log
 
 También puedes usar:
+
    ```bash
    git log --oneline --graph --all
 
