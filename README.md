@@ -35,12 +35,13 @@ Para ver el historial de commits:
 
    ```bash
    git log
+   ```
 
 También puedes usar:
 
    ```bash
    git log --oneline --graph --all
-
+   ```
 Esto muestra los commits de forma visual y resumida.
 
 ###🔹 Etiquetando commits y viendo diferencias
@@ -48,12 +49,12 @@ Puedes etiquetar un commit (por ejemplo, para marcar una versión):
 
    ```bash
    git tag v1.0
-
+   ```
 Ver diferencias entre versiones:
 
    ```bash
    git diff commit1 commit2
-
+   ```
 ###🔹 Crear repositorio remoto y subir commits locales
 1. En GitHub, crea un nuevo repositorio vacío.
 
@@ -73,17 +74,17 @@ Deshacer cambios en el área de staging:
 
    ```bash
    git restore --staged archivo.txt
-
+   ```
 Deshacer cambios no guardados:
 
    ```bash
    git checkout -- archivo.txt
-
+   ```
 Volver a un commit anterior (de forma irreversible):
 
    ```bash
    git reset --hard commit_id
-
+   ```
 ###🔹 Archivo .gitignore y subir cambios al repositorio remoto
 El archivo .gitignore indica a Git qué archivos o carpetas no debe rastrear (por ejemplo, archivos temporales, binarios, configuraciones locales, etc.).
 
@@ -94,14 +95,14 @@ Ejemplo de .gitignore:
    *.class
    node_modules/
    .DS_Store
-
+   ```
 Después de crearlo/modificarlo:
 
    ```bash
    git add .gitignore
    git commit -m "Agregar archivo .gitignore"
    git push
-
+   ```
 ###🔹 Usando par de claves SSH
 Para conectarte a GitHub sin introducir usuario/contraseña cada vez:
 
@@ -149,39 +150,39 @@ Crear una rama nueva:
 
    ```bash
    git branch nombre-rama
-
+   ```
 Cambiarte a esa rama:
 
    ```bash
    git checkout nombre-rama
-
+   ```
 O hacer ambas cosas a la vez:
 
    ```bash
    git checkout -b nombre-rama
-
+   ```
 ###🔹 Fusión y eliminación de ramas
 
 Volver a la rama main:
 
    ```bash
    git checkout main
-
+   ```
 Fusionar una rama (por ejemplo, desarrollo) con main:
 
    ```bash
    git merge desarrollo
-
+   ```
 Eliminar una rama local ya fusionada:
 
    ```bash
    git branch -d desarrollo
-
+   ```
 Eliminar una rama remota:
 
    ```bash
    git push origin --delete desarrollo
-
+   ```
 ## 2. Generación de documentación para Java con Javadoc
 
 [Javadoc](https://docs.oracle.com/en/java/javase/17/docs/specs/javadoc/doc-comment-spec.html) es una herramienta incluida en el JDK que permite generar documentación en formato HTML a partir de los comentarios especiales en el código fuente Java.
@@ -212,7 +213,7 @@ public class CuentaBancaria {
         // Código
     }
 }
-
+```
 ### 🔹 Etiquetas comunes en Javadoc
 
 - `@author`: Autor del código.
@@ -229,7 +230,7 @@ Desde el terminal, puedes generar la documentación con:
 
 ```bash
 javadoc -d docs CuentaBancaria.java
-
+```
 Esto crea una carpeta docs con todos los archivos HTML generados.
 
 ### 🔹 Consejos para una buena documentación
