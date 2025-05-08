@@ -255,6 +255,7 @@ La mayoría de IDEs como **IntelliJ IDEA**, **Eclipse** o **VS Code** permiten g
 
 ```java
 /**
+```
 
 y presionar Enter sobre un método o clase.
 
