@@ -44,7 +44,7 @@ También puedes usar:
    ```
 Esto muestra los commits de forma visual y resumida.
 
-###🔹 Etiquetando commits y viendo diferencias
+### 🔹 Etiquetando commits y viendo diferencias
 
 Puedes etiquetar un commit (por ejemplo, para marcar una versión):
 
@@ -56,7 +56,7 @@ Ver diferencias entre versiones:
    ```bash
    git diff commit1 commit2
    ```
-###🔹 Crear repositorio remoto y subir commits locales
+### 🔹 Crear repositorio remoto y subir commits locales
 
 1. En GitHub, crea un nuevo repositorio vacío.
 
@@ -71,7 +71,7 @@ Ver diferencias entre versiones:
    git branch -M main
    git push -u origin main
 
-###🔹 Deshaciendo cambios en repositorio local
+### 🔹 Deshaciendo cambios en repositorio local
 
 Deshacer cambios en el área de staging:
 
@@ -88,7 +88,7 @@ Volver a un commit anterior (de forma irreversible):
    ```bash
    git reset --hard commit_id
    ```
-###🔹 Archivo .gitignore y subir cambios al repositorio remoto
+### 🔹 Archivo .gitignore y subir cambios al repositorio remoto
 
 El archivo .gitignore indica a Git qué archivos o carpetas no debe rastrear (por ejemplo, archivos temporales, binarios, configuraciones locales, etc.).
 
@@ -107,7 +107,7 @@ Después de crearlo/modificarlo:
    git commit -m "Agregar archivo .gitignore"
    git push
    ```
-###🔹 Usando par de claves SSH
+### 🔹 Usando par de claves SSH
 
 Para conectarte a GitHub sin introducir usuario/contraseña cada vez:
 
@@ -128,7 +128,7 @@ Para conectarte a GitHub sin introducir usuario/contraseña cada vez:
    ```bash
    git remote set-url origin git@github.com:usuario/repositorio.git
 
-###🔹 Resolución de conflictos
+###  M-9 Resolución de conflictos
 
 Cuando dos ramas modifican la misma parte de un archivo, se genera un conflicto al hacer merge.
 
@@ -150,7 +150,7 @@ Cuando dos ramas modifican la misma parte de un archivo, se genera un conflicto 
    git add archivo.txt
    git commit -m "Resolver conflicto en archivo.txt"
 
-###🔹 Creación de ramas
+###  M-9 Creación de ramas
 
 Crear una rama nueva:
 
@@ -167,7 +167,7 @@ O hacer ambas cosas a la vez:
    ```bash
    git checkout -b nombre-rama
    ```
-###🔹 Fusión y eliminación de ramas
+### 🔹 Fusión y eliminación de ramas
 
 Volver a la rama main:
 
