@@ -45,6 +45,7 @@ También puedes usar:
 Esto muestra los commits de forma visual y resumida.
 
 ###🔹 Etiquetando commits y viendo diferencias
+
 Puedes etiquetar un commit (por ejemplo, para marcar una versión):
 
    ```bash
@@ -56,6 +57,7 @@ Ver diferencias entre versiones:
    git diff commit1 commit2
    ```
 ###🔹 Crear repositorio remoto y subir commits locales
+
 1. En GitHub, crea un nuevo repositorio vacío.
 
 2. Conecta el repositorio local con el remoto:
@@ -70,6 +72,7 @@ Ver diferencias entre versiones:
    git push -u origin main
 
 ###🔹 Deshaciendo cambios en repositorio local
+
 Deshacer cambios en el área de staging:
 
    ```bash
@@ -86,6 +89,7 @@ Volver a un commit anterior (de forma irreversible):
    git reset --hard commit_id
    ```
 ###🔹 Archivo .gitignore y subir cambios al repositorio remoto
+
 El archivo .gitignore indica a Git qué archivos o carpetas no debe rastrear (por ejemplo, archivos temporales, binarios, configuraciones locales, etc.).
 
 Ejemplo de .gitignore:
@@ -104,6 +108,7 @@ Después de crearlo/modificarlo:
    git push
    ```
 ###🔹 Usando par de claves SSH
+
 Para conectarte a GitHub sin introducir usuario/contraseña cada vez:
 
 1. Generar clave SSH:
@@ -124,6 +129,7 @@ Para conectarte a GitHub sin introducir usuario/contraseña cada vez:
    git remote set-url origin git@github.com:usuario/repositorio.git
 
 ###🔹 Resolución de conflictos
+
 Cuando dos ramas modifican la misma parte de un archivo, se genera un conflicto al hacer merge.
 
 1. Git marca el archivo con líneas como estas:
