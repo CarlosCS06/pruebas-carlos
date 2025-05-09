@@ -2,13 +2,14 @@
 
 ---
 
-### 🔵 **Índice**
+### Índice
 
-1. [Uso de comandos git](###uso-de-comandos-git)  
-2. [Generación de documentación para Java, con Javadoc](###generación-de-documentación-para-java-con-javadoc)  
-3. [Optimización del código](###optimización-del-código)
+1. [Uso de comandos git](##uso-de-comandos-git)
+2. [Generación de documentación para Java, con Javadoc](##generación-de-documentación-para-java-con-javadoc)
+3. [Optimización del código](##optimización-del-código)
 
 ---
+
 
 ## 📁 1. Uso de comandos Git
 
