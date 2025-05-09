@@ -100,6 +100,10 @@ Volver a un commit anterior (de forma irreversible):
    ```bash
    git reset --hard commit_id
    ```
+Aqui tenemos un ejemplo de como se desahacen los cambios de un repositorio:
+
+![Captura de ejemplo](imagenes/captura4.png)
+
 ### 🔹 Archivo .gitignore y subir cambios al repositorio remoto
 
 El archivo .gitignore indica a Git qué archivos o carpetas no debe rastrear (por ejemplo, archivos temporales, binarios, configuraciones locales, etc.).
