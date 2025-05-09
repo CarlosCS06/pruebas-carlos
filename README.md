@@ -79,6 +79,10 @@ En esta imagen se puede ver una prueba de como revisar y etiquetar commits:
    git branch -M main
    git push -u origin main
 
+Este es otro ejemplo de como crear y realizar commits:
+
+![Captura 3](imagenes/captura3.png)
+
 ### 🔹 Deshaciendo cambios en repositorio local
 
 Deshacer cambios en el área de staging:
