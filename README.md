@@ -2,15 +2,9 @@
 
 ---
 
-<hr>
-<h1 style="color: blue;">Índice</h1>
-
-<ol>
-  <li><a href="#uso-de-comandos-git">Uso de comandos git</a></li>
-  <li><a href="#generación-de-documentación-para-java-con-javadoc">Generación de documentación para Java, con Javadoc</a></li>
-  <li><a href="#optimización-del-código">Optimización del código</a></li>
-</ol>
-<hr>
+1. [Uso de comandos git](#1-uso-de-comandos-git)
+2. [Generación de documentación para Java, con Javadoc](#2-generación-de-documentación-para-java-con-javadoc)
+3. [Optimización del código](#3-optimización-del-código)
 
 ---
 
