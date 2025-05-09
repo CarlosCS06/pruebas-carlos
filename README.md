@@ -1,5 +1,15 @@
 # Apuntes Tema 4
 
+---
+
+### 🔵 **Índice**
+
+1. [Uso de comandos git](###uso-de-comandos-git)  
+2. [Generación de documentación para Java, con Javadoc](###generación-de-documentación-para-java-con-javadoc)  
+3. [Optimización del código](###optimización-del-código)
+
+---
+
 ## 📁 1. Uso de comandos Git
 
 Esta sección cubre los fundamentos del uso de Git para gestionar proyectos. Se incluyen explicaciones básicas y prácticas sobre cómo realizar tareas comunes.
