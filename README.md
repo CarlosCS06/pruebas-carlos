@@ -205,6 +205,10 @@ Eliminar una rama remota:
    ```bash
    git push origin --delete desarrollo
    ```
+Por último, aqui se muestran algunos comandos que demuestran un ejemplo de lo que acabamos de ver:
+
+![Captura 5](imagenes/captura5.png)
+
 ## 2. Generación de documentación para Java con Javadoc
 
 [Javadoc](https://docs.oracle.com/en/java/javase/17/docs/specs/javadoc/doc-comment-spec.html) es una herramienta incluida en el JDK que permite generar documentación en formato HTML a partir de los comentarios especiales en el código fuente Java.
