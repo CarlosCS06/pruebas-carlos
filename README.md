@@ -60,6 +60,10 @@ Ver diferencias entre versiones:
    ```bash
    git diff commit1 commit2
    ```
+En esta imagen se puede ver una prueba de como revisar y etiquetar commits:
+
+![Captura 2](imagenes/captura2.png)
+
 ### 🔹 Crear repositorio remoto y subir commits locales
 
 1. En GitHub, crea un nuevo repositorio vacío.
