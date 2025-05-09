@@ -1,15 +1,14 @@
 # Apuntes Tema 4
 
-<hr>
-<h3 style="color: blue;">Índice</h3>
+---
 
-<ol>
-  <li><a href="#uso-de-comandos-git">Uso de comandos git</a></li>
-  <li><a href="#generación-de-documentación-para-java-con-javadoc">Generación de documentación para Java, con Javadoc</a></li>
-  <li><a href="#optimización-del-código">Optimización del código</a></li>
-</ol>
-<hr>
+# Índice
 
+1. [Uso de comandos git](#uso-de-comandos-git)
+2. [Generación de documentación para Java, con Javadoc](#generación-de-documentación-para-java-con-javadoc)
+3. [Optimización del código](#optimización-del-código)
+
+---
 
 ## 📁 1. Uso de comandos Git
 
